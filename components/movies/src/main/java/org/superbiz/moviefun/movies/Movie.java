@@ -40,7 +40,11 @@ public class Movie implements Serializable {
     public Movie() {
     }
 
-    public Movie(String title, String director, String genre, int rating, int year) {
+    public Movie(String title,
+                 String director,
+                 String genre,
+                 int rating,
+                 int year) {
         this.director = director;
         this.title = title;
         this.year = year;

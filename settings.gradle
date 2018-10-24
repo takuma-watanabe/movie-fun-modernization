@@ -1,6 +1,14 @@
 rootProject.name = "moviefun"
 
 include "applications:movie-fun-app"
+include "applications:movie-service"
 
 include "components:albums"
 include "components:movies"
+include 'components:movie-fun-api'
+findProject(':components:movie-fun-api')?.name = 'movie-fun-api'
+include 'components:blobstore'
+findProject(':components:blobstore')?.name = 'blobstore'
+include 'applications:album-service'
+findProject(':applications:album-service')?.name = 'album-service'
+
