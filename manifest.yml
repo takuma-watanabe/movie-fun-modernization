@@ -3,6 +3,7 @@ memory: 1G
 instances: 1
 services:
 - movie-fun-sso
+- movie-fun-registry
 applications:
 - name: album-service
   path: applications/album-service/build/libs/album-service-1.1.0-SNAPSHOT.jar
