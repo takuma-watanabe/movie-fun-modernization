@@ -10,8 +10,11 @@ dependencies {
     compile project(":components:albums")
     compile project(":components:cf-support")
 
+//    compile project(":databases:movie-database")
+
     compile "org.springframework.boot:spring-boot-starter-web"
     compile "org.springframework.boot:spring-boot-starter-data-jpa"
 
     compile "mysql:mysql-connector-java:$mysqlVersion"
 }
+
